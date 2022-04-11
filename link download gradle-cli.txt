@@ -1,1 +1,0 @@
-https://storage.googleapis.com/rg-grader/latest/grader-cli-windows-amd64.exe
