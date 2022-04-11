@@ -1,6 +1,6 @@
-# N-Grader - Easy to use
+# N-Grader
 
-N-Grader adalah peralatan untuk memudahkan siswa dalam melakukan test dan submit ke grader ruangguru.
+N-Grader adalah peralatan untuk memudahkan pengguna dalam penggunaan fitur grader-cli yaitu test dan submit ke grader ruangguru.
 ![](docs/N-Grader.png)
 
 ## Note
