@@ -1,4 +1,4 @@
-:: n-grader v3
+:: n-grader v4
 :: build by nabil_aba
 :: my-github: github.com/nabilaba
 :: copyright 2022
@@ -19,7 +19,7 @@ for /f "delims=" %%i in ('git rev-parse --show-prefix') do set prefixGit=%%i
 echo %rootGit%/%prefixGit%
 echo.
 
-echo [92mn-grader v3
+echo [92mn-grader v4
 echo build by nabil_aba[0m
 echo.
 echo List pilihan
@@ -88,6 +88,11 @@ goto end
 echo.
 echo Lokasi unduhan ada di folder Downloads PC masing-masing dengan nama gradle-cli.exe
 echo.
+if "%ProgramFiles(x86)%" == "C:\Program Files (x86)" goto grader64bit
+:grader32bit
+curl https://storage.googleapis.com/rg-grader/latest/grader-cli-windows-i386.exe --output "%USERPROFILE%\Downloads\grader-cli.exe"
+goto end
+:grader64bit
 curl https://storage.googleapis.com/rg-grader/latest/grader-cli-windows-amd64.exe --output "%USERPROFILE%\Downloads\grader-cli.exe"
 goto end
 

@@ -9,7 +9,7 @@ Pastikan sudah terpasang grader-cli dari ruangguru
 ```
 
 ## Cara Pasang
-1. Download versi terakhir dari [sini](https://github.com/nabilaba/N-Grader/releases/download/v3/N-Grader.zip)
+1. Download versi terakhir dari [sini](https://github.com/nabilaba/N-Grader/releases/download/v4/N-Grader.zip)
 2. Ekstrak dan pindahkan folder N-Grader ke C:\Program Files\
 3. Tambahkan N-Grader ke PATH (C:\Program Files\N-Grader\)
 ![](docs/CaraPasang.gif)
@@ -22,6 +22,9 @@ Pastikan sudah terpasang grader-cli dari ruangguru
 3. Enter dan pilih sesuai list yang muncul
 
 ## Changelog
+### Version 4
+- Fix download gradle-cli with detecting PC is 32bit or 64bit
+
 ### Version 3
 - Update method for fix grader-cli submit
 - Add option to check version of grader-cli
